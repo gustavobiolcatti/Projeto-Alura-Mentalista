@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imersão Dev - Aula 03</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="page-title">
+                Mentalista
+            </h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt=""><br>
+
+            <section class="conversor__box">
+                <h2 class="titulo--padrao">Digite um número de 0 a 10</h2>
+
+                <div class="formulario flex-container">
+                    <input class="formulario__input" id="valor" type="number" placeholder="Digite o valor do chute" required>
+                    <button class="formulario__botao" id="botaoChutar" type="submit" onclick="chutar()">Chutar</button>
+                    <button class="formulario__botao" onclick="resetar()">Resetar</button>
+                </div>
+
+                <div class="resultado flex-container">
+                    <article class="resultado__caixa">
+                        <h3 id="resultado__tentativas" class="resultado__subtitulo">Tentativas restantes: 3</h3>
+                        <p id="resultado__texto" class="resultado__texto"></p>
+                        <p id="resultado__texto--alerta" class="resultado__texto"></p>
+                    </article>
+                </div>
+            </section>
+
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+        <script src="script/script.js"></script>
+    </body>
+</html>

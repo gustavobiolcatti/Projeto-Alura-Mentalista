@@ -1,0 +1,123 @@
+body {
+	font-family: "Roboto Mono", monospace;
+	min-height: 600px;
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/990/640/969/dark-colors-background-wallpaper-preview.jpg");
+	background-color: #000000;
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.container {
+	text-align: center;
+	padding: 20px;
+	height: 100vh;
+}
+
+.page-title {
+	color: #ffffff;
+	margin: 0 0 5px;
+}
+
+.page-subtitle {
+	color: #ffffff;
+	margin-top: 16px;
+}
+
+.page-logo {
+	width: 200px;
+}
+
+.alura-logo {
+	width: 40px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+@media (max-height: 500px) {
+	body {
+		min-height: 800px;
+	}
+}
+
+/*  */
+
+.conversor__box {
+	width: 940px;
+	padding: 40px 20px;
+	margin: 50px auto 0;
+	background: linear-gradient(45deg, #ffffff90, #76767690);
+	border-radius: 15px;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.titulo--padrao {
+	margin-bottom: 1.5em;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 0 0 5px #000;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.formulario {
+	width: 40%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: space-between;;
+	border-radius: 10px;
+}
+
+.formulario__input,
+.formulario__botao {
+	border: none;
+	padding: 1em;
+	font-weight: bold;
+	box-shadow: 0 0 15px #000;
+	box-sizing: border-box;
+}
+
+.formulario__input {
+	display: block;
+	width: 100%;
+	font-size: 0.9em;
+	border-radius: 10px;
+	outline: none;
+}
+
+.formulario__botao {
+	width: 45%;
+	margin-top: 30px;
+	background-color: #ccc;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+.resultado {
+	margin-top: 50px;
+	justify-content: space-around;
+}
+
+.resultado__caixa {
+	width: 80%;
+	background-color: #1d1e22;
+	border-radius: 10px;
+}
+
+.resultado__subtitulo {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.4em;
+}
+
+.resultado__texto {
+	display: inline-block;
+	padding: 5px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: bold;
+}
